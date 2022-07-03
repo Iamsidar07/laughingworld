@@ -13,7 +13,7 @@ export async function getServerSideProps() {
   };
 }
 
-const anime = ({ smile }) => {
+const Anime = ({ smile }) => {
   const [keywords, setKeywords] = useState("uniform");
   const [loading, setLoading] = useState(false);
   const [animes, setAnimes] = useState([]);
@@ -67,4 +67,4 @@ const anime = ({ smile }) => {
   );
 };
 
-export default anime;
+export default Anime;

@@ -18,7 +18,7 @@ export async function getServerSideProps() {
   };
 }
 
-const quotes = ({ kill, quotes }) => {
+const Quotes = ({ kill, quotes }) => {
   const [loading, setLoading] = useState(false);
   const [keywords, setKeywords] = useState("");
   const [quotesData, setQuotesData] = useState([]);
@@ -64,4 +64,4 @@ const quotes = ({ kill, quotes }) => {
   );
 };
 
-export default quotes;
+export default Quotes;

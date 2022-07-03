@@ -14,7 +14,7 @@ export async function getServerSideProps() {
   };
 }
 
-const joke = ({ happy }) => {
+const Joke = ({ happy }) => {
   const [keywords, setKeywords] = useState("Political");
   const [jokes, setJokes] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -72,4 +72,4 @@ const joke = ({ happy }) => {
   );
 };
 
-export default joke;
+export default Joke;

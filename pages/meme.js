@@ -14,7 +14,7 @@ export async function getServerSideProps() {
   };
 }
 
-const joke = ({ meme }) => {
+const Meme = ({ meme }) => {
   const [keywords, setKeywords] = useState("Political");
   const [loading, setLoading] = useState(false);
   const [memes, setMemes] = useState([]);
@@ -88,4 +88,4 @@ useEffect(()=>{
   );
 };
 
-export default joke;
+export default Meme;
