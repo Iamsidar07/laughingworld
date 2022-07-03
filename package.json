@@ -9,20 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@giphy/js-fetch-api": "^4.2.2",
-    "@giphy/react-components": "^5.9.2",
     "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
-    "@radix-ui/react-dropdown-menu": "^0.1.6",
-    "anime-character-random": "^1.0.11",
-    "anime-images-api": "^2.0.0",
-    "flowbite": "^1.4.7",
     "ionicons": "^6.0.2",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "react-scroll": "^1.8.7"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

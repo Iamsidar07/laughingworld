@@ -54,7 +54,7 @@ useEffect(()=>{
     setMemes(data.memes);
   };
   getData();
-},[keywords])
+},[keywords,apiKey])
 
   
 

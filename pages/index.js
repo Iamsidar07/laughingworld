@@ -85,7 +85,7 @@ export default function Home({ kiss, happy, kill, meme, smile }) {
           isLeft={false}
         />
 
-        <script src="../path/to/flowbite/dist/flowbite.js"></script>
+
       </div>
     </div>
   );
